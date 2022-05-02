@@ -7,7 +7,7 @@ import { ResumenComponent } from './resumen/resumen.component';
 import { PortafolioComponent } from './portafolio/portafolio.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactoComponent } from './contacto/contacto.component';
-
+import { Project1Component } from './myprojects/project1/project1.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +15,7 @@ import { ContactoComponent } from './contacto/contacto.component';
     PortafolioComponent,
     BlogComponent,
     ContactoComponent,
+    Project1Component,
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
